@@ -111,9 +111,7 @@ public class MainActivity extends AppCompatActivity {
 
                     adapter.notifyDataSetChanged();
                 })
-                .setNegativeButton("Delete", (dialog, id) -> {
-                    showConfirmationDialog(position);
-                })
+                .setNegativeButton("Delete", (dialog, id) -> showConfirmationDialog(position))
                 .setNeutralButton("Cancel", (dialog, id) -> dialog.dismiss());
 
         AlertDialog dialog = builder.create();
