@@ -56,8 +56,8 @@ public class MainActivity extends AppCompatActivity {
         View dialogView = inflater.inflate(R.layout.add_fruit_dialog, null);
         builder.setView(dialogView);
 
-        final EditText addName = dialogView.findViewById(R.id.addName);
-        final EditText addDescription = dialogView.findViewById(R.id.addDescription);
+        EditText addName = dialogView.findViewById(R.id.addName);
+        EditText addDescription = dialogView.findViewById(R.id.addDescription);
         Button btnSelectImage = dialogView.findViewById(R.id.btnSelectImage);
         selectedImageView = dialogView.findViewById(R.id.selectedImageView);
 
@@ -87,8 +87,8 @@ public class MainActivity extends AppCompatActivity {
         View dialogView = inflater.inflate(R.layout.add_fruit_dialog, null);
         builder.setView(dialogView);
 
-        final EditText addName = dialogView.findViewById(R.id.addName);
-        final EditText addDescription = dialogView.findViewById(R.id.addDescription);
+        EditText addName = dialogView.findViewById(R.id.addName);
+        EditText addDescription = dialogView.findViewById(R.id.addDescription);
         Button btnSelectImage = dialogView.findViewById(R.id.btnSelectImage);
         selectedImageView = dialogView.findViewById(R.id.selectedImageView);
 
